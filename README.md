@@ -50,8 +50,9 @@ When using this library, make sure to disable the Spring boot default oauth2 aut
    
 property in the application.properties file.
 ### Change version of Spring Security Oauth library
-Within your maven project pom.xml file, define the following property to use the appropriate Oauth library needed by this library to work:
+Within your maven project pom.xml file, define the following properties to use the appropriate Oauth2 and JWT library needed by this library to work:
  
-    <spring-security-oauth.version>2.0.14.RELEASE</spring-security-oauth.version>
+    <spring-security-oauth.version>2.2.0.RELEASE</spring-security-oauth.version>
+    <spring-security-jwt.version>1.0.8.RELEASE</spring-security-jwt.version>
 
 
